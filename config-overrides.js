@@ -10,8 +10,7 @@ module.exports = function override(config, env) {
     alias: {
       '@reducers': path.resolve(__dirname, 'src/reducers/index.js'),
       '@stores': path.resolve(__dirname, 'src/stores/index.js'),
-      '@constants': path.resolve(__dirname, 'src/constants/index.js'),
-      '@components': path.resolve(__dirname, 'src/components/index.js')
+      '@constants': path.resolve(__dirname, 'src/constants/index.js')
     },
     extensions: ['.js', 'jsx', '.json', 'mjs', '.ts', '.tsx']
   }
